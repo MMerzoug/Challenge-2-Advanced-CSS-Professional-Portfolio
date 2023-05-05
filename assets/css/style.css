@@ -1,28 +1,42 @@
+body {
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
-    background-color: #354a6c;
-    color: #a8d8e2;
+    padding: 3%;
+    background-color: #222c3b;
+    color: #848781;
   }
 
   h1 {
     font-size: 200%; 
   }
 
-  /* referenced https://alvarotrigo.com/blog/css-highlight-text/#:~:text=How%20Do%20I%20Highlight%20Text,ways%20to%20create%20different%20looks. for support */
+  /* referenced https://alvarotrigo.com/blog/css-highlight-text/#:~:text=How%20Do%20I%20Highlight%20Text,ways%20to%20create%20different%20looks. for support
   .highlight {
     display: inline;
-    padding: .7em 0;
-    background: #a8d8e2;
-    color: #354a6c;
-    box-shadow: .5em 0 0 #a8d8e2, -.5em 0 0 #a8d8e2;
+    justify-items: start;
+    padding: .79em 0;
+    background: #848781;
+    color: #222c3b;
+    box-shadow: .4em 0 0 #848781, -.5em 0 0 #848781;
+  } */
+
+  nav a {
+    color: #848781;
+    font-size: 22px;
+    justify-content: right;
+    padding: 10px;
   }
-  nav ul {
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
-    text-underline-position: under;
-    color: #354a6c;
+ 
+  aside {
+    color: #222c3b;
+    text-align: right;
+    font-size: 200%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 87px;
   }
