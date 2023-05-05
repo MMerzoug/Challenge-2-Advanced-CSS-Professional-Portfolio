@@ -1,4 +1,8 @@
-body {
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #222c3b;
 }
 
 header {
@@ -6,7 +10,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 3%;
-    background-color: #222c3b;
     color: #848781;
   }
 
@@ -14,29 +17,51 @@ header {
     font-size: 200%; 
   }
 
-  /* referenced https://alvarotrigo.com/blog/css-highlight-text/#:~:text=How%20Do%20I%20Highlight%20Text,ways%20to%20create%20different%20looks. for support
-  .highlight {
-    display: inline;
-    justify-items: start;
-    padding: .79em 0;
-    background: #848781;
-    color: #222c3b;
-    box-shadow: .4em 0 0 #848781, -.5em 0 0 #848781;
-  } */
+  box { 
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
 
-  nav a {
+  a {
     color: #848781;
     font-size: 22px;
-    justify-content: right;
+    justify-content: left;
     padding: 10px;
   }
  
+  .hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/wireframe.png");
+    background-size: cover;
+    background-position: center;
+}
+
   aside {
-    color: #222c3b;
-    text-align: right;
+    color: #848781;
+    text-align: left;
     font-size: 200%;
-    height: 100%;
-    position: absolute;
+    position: static;
     left: 0;
     top: 87px;
   }
+
+  . about-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+  }
+
+  .about-me img {
+      max-height: 200px;
+  }
+  
+  .float-left {
+    float: left;
+    margin-right: 25px;
+}

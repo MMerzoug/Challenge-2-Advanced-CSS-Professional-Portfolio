@@ -8,30 +8,44 @@
     <link rel="stylesheet" href="./assets/css/reset.css"/>
     <link rel="stylesheet" href="./assets/css/style.css"/>
 </head>
+
 <body>
-    <header>
+    <header class="header">
         <h1> 
-            <span class="highlight"> Monique Merzoug</span>
+            <span class="Monique Merzoug"> Monique Merzoug</span>
         </h1>
-    <nav>
-        <a href="#">About Me</a>
-        <a href="#">Work</a>
-        <a href="#">Contact Me</a>
-        <a href="#">Resume</a>
-    </nav>
+        <box>
+            <nav>
+                <a href="#about-me">About Me</a>
+                <a href="#work">Work</a>
+                <a href="#contact-me">Contact Me</a>
+                <a href="#resume">Resume</a>
+            </nav>
+        </box>
     </header> 
 
-    <main>
+    <!--Background Image-->
+    <section class="hero"></section>
+    <section class="content">
+        <!--Side Bar-->
         <aside>
             <ul>About Me</ul>
+            <nav id="about-me" class="about-me">
+                <figure>
+                    <img src="./assets/images/portrait.JPG" class="float-left" alt="Picture of Monique Merzoug"/>
+                </figure>
+                <h2>Title of Section</h2>
+                <p>
+                    Biography copy goes here....
+                </p>
+            </nav>
             <ul>Work</ul>
             <ul> Contact Me</ul>
             <ul> Resume</ul>
           </aside>
+    </section>
+    
 
-        <section>
-            <img class= "header-image"src="./assets/images/tenderscorpion_ux_wireframes_for_a_website_63dbbb23-5dc4-4a77-9ef1-55c53ea30546.png" alt="Wireframe sketch">
-        </section>
         <section>
             <p>
                 Type bio here
