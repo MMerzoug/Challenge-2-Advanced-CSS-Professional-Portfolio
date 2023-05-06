@@ -25,7 +25,18 @@ header {
     font-size: 300%; 
   }
 
+  h2{
+    width: 100%;
+    text-align: center;
+    font-size: 200%;
+    padding: 5%;
+  }
+
   * {box-sizing:border-box}
+
+  p {
+    text-align: center;
+  }
 
 /* Slideshow container */
 .slideshow-container {
@@ -37,6 +48,8 @@ header {
 /* Make the images invisible by default */
 .Containers {
   display: block;
+  border-style:solid;
+  border-radius: 1em;
   
 }
 .Containers img {
@@ -47,6 +60,7 @@ header {
 .Containers p {
   width: 100%;
   text-align: center;
+  padding: 2%;
 }
 
 /* forward & Back buttons */
@@ -56,7 +70,7 @@ header {
   top: 48%;
   width: auto;
   margin-top: -23px;
-  padding: 17px;
+  padding: 7px;
   color: grey;
   font-weight: bold;
   font-size: 19px;
@@ -150,7 +164,8 @@ form {
   width: 400px;
   /* Form outline */
   padding: 1em;
-  border: 2px solid #999;
+  border-style:solid;
+  border-color: grey;
   border-radius: 1em;
 }
 
@@ -162,6 +177,7 @@ ul {
 
 form li + li {
   margin-top: 1em;
+  
 }
 
 label {
@@ -176,21 +192,36 @@ textarea {
   /* To make sure that all text fields have the same font settings
      By default, textareas have a monospace font */
   font: 1em montserrat;
+  
 
   /* Uniform text field size */
   width: 300px;
   box-sizing: border-box;
   border-radius: 1em;
+  padding: 1em;
+  border-style:solid;
+  border-color: grey;
+  border-radius: 1em;
  
 
   /* Match form field borders */
-  border: 2px solid #999;
+  border-radius: 1em;
+  border-color: grey;
+  border-style: solid;
 }
 
 input:focus,
 textarea:focus {
   /* Additional highlight for focused elements */
-  border-color: #000;
+  border-radius: 1em;
+  border-color: grey;
+  border-style: solid;
+}
+
+textarea {
+  border-radius: 1em;
+  border-color: grey;
+  border-style: solid;
 }
 
 textarea {
@@ -199,6 +230,7 @@ textarea {
 
   /* Provide space to type some text */
   height: 5em;
+  
 }
 
 .button {
@@ -211,6 +243,8 @@ button {
      between the labels and their text fields */
   margin-left: 0.5em;
   border-radius: 1em;
+  border-color: grey;
+  border-style: solid;
 }
 /*Contact Me form styling end*/
 
@@ -219,6 +253,8 @@ button {
   width: 50%; /* Full-width */
   background-color: #fcf7f7;; /* Dark-grey background */
   overflow: auto; /* Overflow due to float */
+  text-align: center;
+  margin-left: 25%;
 }
 
 .icon-bar a {
