@@ -17,8 +17,7 @@ head {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center; 
   }
 
   h1 {
@@ -36,8 +35,7 @@ header {
 
   p {
     text-align: center;
-    width: 100%;
-    
+    width: 100%;  
   }
 
 /* Slideshow container */
