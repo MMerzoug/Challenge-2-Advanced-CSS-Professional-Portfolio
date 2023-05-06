@@ -1,75 +1,51 @@
+/*Universal Selector*/
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  background-color: #222c3b;
+  padding: 10px;
+  margin: 1px;
+  background-color: #fcf7f7;
+  font-family: Montserrat, serif;
+  color: #3c3d3a;
+}
+
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+img { box-sizing: content-box; }
+head {
+  display: none;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3%;
-    color: #848781;
   }
 
   h1 {
     font-size: 200%; 
   }
-
-  span {
-    font-family: ;
+  .wrapper {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin bottom: 0;
   }
 
-  box { 
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-
   a {
-    color: #848781;
     font-size: 22px;
     justify-content: left;
     padding: 10px;
   }
- 
-  .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/wireframe.png");
-    background-size: cover;
-    background-position: center;
-}
-
-  aside {
-    color: #848781;
-    text-align: left;
-    font-size: 200%;
-    position: static;
-    left: 0;
-    top: 87px;
-  }
 
   . about-me {
-    margin-bottom: 20px;
-    padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
   }
 
-  .about-me img {
-      max-height: 200px;
+  img {
+      max-height: 400px;
+      border-radius: 50%;
   }
   
-  .float-left {
-    float: left;
-    margin-right: 25px;
-}
 /*Contact Me form styling start*/
 form {
   /* Center the form on the page */
@@ -89,6 +65,7 @@ ul {
 
 form li + li {
   margin-top: 1em;
+
 }
 
 label {
@@ -102,7 +79,7 @@ input,
 textarea {
   /* To make sure that all text fields have the same font settings
      By default, textareas have a monospace font */
-  font: 1em sans-serif;
+  font: 1em montserrat;
 
   /* Uniform text field size */
   width: 300px;
