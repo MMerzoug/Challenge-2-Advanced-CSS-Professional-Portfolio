@@ -70,6 +70,7 @@ header {
     float: left;
     margin-right: 25px;
 }
+/*Contact Me form styling start*/
 form {
   /* Center the form on the page */
   margin: 0 auto;
@@ -135,4 +136,4 @@ button {
      between the labels and their text fields */
   margin-left: 0.5em;
 }
-
+/*Contact Me form styling end*/
