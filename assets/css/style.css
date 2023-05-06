@@ -24,18 +24,20 @@ header {
   h1 {
     font-size: 300%; 
   }
-
+  
   h2{
     width: 100%;
     text-align: center;
     font-size: 200%;
-    padding: 5%;
+    padding: 3%;
   }
 
   * {box-sizing:border-box}
 
   p {
     text-align: center;
+    width: 100%;
+    
   }
 
 /* Slideshow container */
