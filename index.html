@@ -26,27 +26,61 @@
     <main>
     <!--Background Image-->
     <section class="hero"></section>
-    <section class="content">
-        <!--Copy-->>
+    <section class="content"></section>
+        <!--Copy-->
         <section>
             <h2> About Me</h2>
-            <section id="about-me" class="about-me">
+            <section id="about-me" class="about-me"></section>
                 <figure>
                     <!--<img src="./assets/images/portrait.JPG" class="float-left" alt="Picture of Monique Merzoug"/>-->
                 </figure>
                 <p>
-                    Biography copy goes here....
+                    Hello! My name is [Your Name], and I am a recent full stack web development graduate with a passion for enhancing businesses' omni channel experience. As an experienced business leader, I possess strong visual merchandising and management skills, which I'm eager to combine with my web development expertise to maximize the potential of your online presence.
+
+                    Throughout my career, I've proven to be results-driven and committed to delivering exceptional outcomes for both clients and team members. My diverse skill set allows me to approach projects with a comprehensive understanding of various facets of the business world.
+
+                    I am thrilled to join your team and bring my unique blend of skills to the table. My ultimate goal is to magnify your business's profits, ensuring that your digital presence is not only visually appealing but also highly functional and user-friendly.
+
+                    I look forward to working with you and contributing to the ongoing success of your business.
                 </p>
             </section>
+            
             <h2>Work</h2>
             <section id="work" class="work">
-                <figure>
-                     
-                </figure>
-                <p>
-                    This is where my body of work carasoul will be
-                </p>
+                <div class="slideshow-container fade">
+                    <!-- Full images with numbers and message Info -->
+                    <div class="Containers">
+                      <div class="MessageInfo">1 / 3</div>
+                      <img src="image1.jpg" style="width:100%">
+                      <div class="Info">First caption</div>
+                    </div>
+                  
+                    <div class="Containers">
+                      <div class="MessageInfo">2 / 3</div>
+                      <img src="image2.jpg" style="width:100%">
+                      <div class="Info">Second Caption</div>
+                    </div>
+                  
+                    <div class="Containers">
+                      <div class="MessageInfo">3 / 3</div>
+                      <img src="image3.jpg" style="width:100%">
+                      <div class="Info">Third Caption</div>
+                    </div>
+                  
+                    <!-- Back and forward buttons -->
+                    <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+                  
+                  <!-- The circles/dots -->
+                  <div style="text-align:center">
+                    <span class="dots" onclick="currentSlide(1)"></span>
+                    <span class="dots" onclick="currentSlide(2)"></span>
+                    <span class="dots" onclick="currentSlide(3)"></span>
+                  </div> 
             </section>
+
             <h2> Contact Me</h2>
             <section id="contact-me" class="contact-me">
                 <figure>
@@ -55,6 +89,7 @@
                 <p>
                     My social, phone, email, blah blah blah
                 </p>
+
             <h2> Resume</h2>
             <section id="resume" class="resume">
                 <figure>
@@ -64,10 +99,13 @@
                     Professional references go here
                 </p>
             </section>
+
     </section>
     </main>
     <footer>
-        
+        <nav>
+            <a href="Let's work together">Let's work together</a>
+        </nav> 
     </footer>
 </body>
 </html>
