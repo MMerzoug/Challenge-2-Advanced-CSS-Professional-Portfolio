@@ -38,6 +38,13 @@ header {
     width: 100%;  
   }
 
+  .content {
+  padding: 1em;
+  border-style:solid;
+  border-color: grey;
+  border-radius: 1em;
+  background-color: white;
+  }
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -50,7 +57,8 @@ header {
   display: block;
   border-style:solid;
   border-radius: 1em;
-  
+  border-width: 2px;
+  background-color: white;
 }
 .Containers img {
   margin-left: 25%;
@@ -61,6 +69,7 @@ header {
   width: 100%;
   text-align: center;
   padding: 2%;
+  background-color: white;
 }
 
 /* forward & Back buttons */
@@ -77,8 +86,26 @@ header {
   transition: 0.4s ease;
   border-radius: 0 5px 5px 0;
   user-select: none;
+  background-color: white;
+  border-style: solid;
 }
 
+.forward {
+  cursor: pointer;
+  position: absolute;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 7px;
+  color: grey;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+  background-color: white;
+  border-style: solid;
+}
 /* Place the "forward button" to the right */
 .forward {
   right: 0;
@@ -87,7 +114,7 @@ header {
 
 /*when the user hovers,add a black background with some little opacity */
 .Back:hover, .forward:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: white;
 }
 
 /* Caption Info */
@@ -98,6 +125,7 @@ header {
   bottom: 10px; */
   width: 100%;
   text-align: center;
+  background-color: white;
 }
 
 /* The circles or bullets and indicators */
@@ -176,8 +204,7 @@ ul {
 }
 
 form li + li {
-  margin-top: 1em;
-  
+  margin-top: 1em; 
 }
 
 label {
