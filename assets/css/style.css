@@ -6,45 +6,47 @@
   font-family: Montserrat, serif;
   color: #3c3d3a;
 }
+
 /*inheriting box sizing*/
-html { box-sizing: border-box; }
-*, *:before, *:after { box-sizing: inherit; }
-img { box-sizing: content-box; }
+html {
+  box-sizing: border-box;
+}
+
 head {
   display: none;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  h1 {
-    font-size: 300%; 
-  }
-  
-  h2{
-    width: 100%;
-    text-align: center;
-    font-size: 200%;
-    padding: 3%;
-  }
+h1 {
+  font-size: 300%;
+}
 
-  * {box-sizing:border-box}
+h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 200%;
+  padding: 3%;
+}
 
-  p {
-    text-align: center;
-    width: 100%;  
-  }
+p {
+  text-align: center;
+  width: 100%;
+  background-color: white;
+}
 
-  .content {
+.content {
   padding: 1em;
-  border-style:solid;
+  border-style: solid;
   border-color: grey;
   border-radius: 1em;
   background-color: white;
-  }
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -55,11 +57,12 @@ header {
 /* Make the images invisible by default */
 .Containers {
   display: block;
-  border-style:solid;
+  border-style: solid;
   border-radius: 1em;
   border-width: 2px;
   background-color: white;
 }
+
 .Containers img {
   margin-left: 25%;
   width: 50%;
@@ -73,7 +76,8 @@ header {
 }
 
 /* forward & Back buttons */
-.Back, .forward {
+.Back,
+.forward {
   cursor: pointer;
   position: absolute;
   top: 48%;
@@ -106,6 +110,7 @@ header {
   background-color: white;
   border-style: solid;
 }
+
 /* Place the "forward button" to the right */
 .forward {
   right: 0;
@@ -113,7 +118,8 @@ header {
 }
 
 /*when the user hovers,add a black background with some little opacity */
-.Back:hover, .forward:hover {
+.Back:hover,
+.forward:hover {
   background-color: white;
 }
 
@@ -140,7 +146,8 @@ header {
   transition: background-color 0.5s ease;
 }
 
-.enable, .dots:hover {
+.enable,
+.dots:hover {
   background-color: #717161;
 }
 
@@ -153,38 +160,62 @@ header {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .5}
-  to {opacity: 2}
+  from {
+    opacity: .5
+  }
+
+  to {
+    opacity: 2
+  }
 }
 
 @keyframes fade {
-  from {opacity: .5}
-  to {opacity: 2}
-}
-/*Profile image*/
-  .wrapper {
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0;
-  }
-/*nav tags in header*/
-  a {
-    font-size: 22px;
-    justify-content: left;
-    padding: 10px;
+  from {
+    opacity: .5
   }
 
-  . about-me {
-    height: 300px;
+  to {
+    opacity: 2
   }
+}
+
 /*Profile image*/
-  img {
-      max-height: 400px;
-      border-radius: 50%;
-  }
-  
+.wrapper {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+figure>img {
+  max-height: 400px;
+  max-width: 400px;
+  border-radius: 50%;
+ margin-right: 25%;
+}
+
+/*nav tags in header*/
+a {
+  font-size: 22px;
+  justify-content: left;
+  padding: 10px;
+}
+
+. about-me {
+  height: 300px;
+}
+
+/*Work images*/
+img {
+  max-height: 50%;
+  max-width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 25%;
+}
+
 /*Contact Me form styling start*/
 form {
   /* Center the form on the page */
@@ -192,19 +223,26 @@ form {
   width: 400px;
   /* Form outline */
   padding: 1em;
-  border-style:solid;
+  border-style: solid;
   border-color: grey;
   border-radius: 1em;
+  background-color: white;
 }
 
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  background-color: white;
 }
 
-form li + li {
-  margin-top: 1em; 
+form li+li {
+  margin-top: 1em;
+  background-color: white;
+}
+
+form li {
+  background-color: white;
 }
 
 label {
@@ -212,6 +250,7 @@ label {
   display: inline-block;
   width: 80px;
   text-align: left;
+  background-color: white;
 }
 
 input,
@@ -219,17 +258,15 @@ textarea {
   /* To make sure that all text fields have the same font settings
      By default, textareas have a monospace font */
   font: 1em montserrat;
-  
 
   /* Uniform text field size */
   width: 300px;
   box-sizing: border-box;
   border-radius: 1em;
   padding: 1em;
-  border-style:solid;
+  border-style: solid;
   border-color: grey;
   border-radius: 1em;
- 
 
   /* Match form field borders */
   border-radius: 1em;
@@ -257,12 +294,13 @@ textarea {
 
   /* Provide space to type some text */
   height: 5em;
-  
+
 }
 
 .button {
   /* Align buttons with the text fields */
-  padding-left: 90px; /* same size as the label elements */
+  padding-left: 90px;
+  /* same size as the label elements */
 }
 
 button {
@@ -273,27 +311,40 @@ button {
   border-color: grey;
   border-style: solid;
 }
+
 /*Contact Me form styling end*/
 
 /*bottom icon bar*/
 .icon-bar {
-  width: 50%; /* Full-width */
-  background-color: #fcf7f7;; /* Dark-grey background */
-  overflow: auto; /* Overflow due to float */
+  width: 50%;
+  /* Full-width */
+  background-color: #fcf7f7;
+  ;
+  /* white background */
+  overflow: auto;
+  /* Overflow due to float */
   text-align: center;
   margin-left: 25%;
 }
 
 .icon-bar a {
-  float: center; /* Float links side by side */
-  text-align: center; /* Center-align text */
-  width: 16%; /* Equal width (5 icons with 20% width each = 100%) */
-  padding: 0; /* Some top and bottom padding */
-  transition: all 0.3s ease; /* Add transition for hover effects */
-  color: #3c3d3a; /* text color */
-  font-size: 36px; /* Increased font size */
+  float: center;
+  /* Float links side by side */
+  text-align: center;
+  /* Center-align text */
+  width: 16%;
+  /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 0;
+  /* Some top and bottom padding */
+  transition: all 0.3s ease;
+  /* Add transition for hover effects */
+  color: #3c3d3a;
+  /* text color */
+  font-size: 36px;
+  /* Increased font size */
 }
 
 .icon-bar a:hover {
-  background-color: #eddada; /* Add a hover color */
+  background-color: #eddada;
+  /* Add a hover color */
 }
