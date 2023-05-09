@@ -39,6 +39,20 @@ p {
   background-color: white;
 }
 
+.work {
+  display: flex;
+}
+
+#prework-study-guide {
+  flex: 1 0 550px;
+}
+
+#project {
+  flex: 1 0 550px;
+}
+
+
+
 .content {
   padding: 1em;
   border-style: solid;
