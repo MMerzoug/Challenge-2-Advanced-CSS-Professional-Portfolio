@@ -51,8 +51,6 @@ p {
   flex: 1 0 550px;
 }
 
-
-
 .content {
   padding: 1em;
   border-style: solid;
@@ -203,10 +201,10 @@ p {
 }
 
 figure>img {
-  max-height: 400px;
-  max-width: 400px;
+  max-height: 475px;
+  max-width: 475px;
   border-radius: 50%;
- margin-right: 25%;
+ margin-right: 5%;
 }
 
 /*nav tags in header*/
