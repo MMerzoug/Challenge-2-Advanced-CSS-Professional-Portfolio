@@ -41,14 +41,18 @@ p {
 
 .work {
   display: flex;
+  align-items: center;
 }
 
 #prework-study-guide {
   flex: 1 1 550px;
+  padding-top: 28.25%;
+  padding-bottom: 28.25%;
 }
 
 #project {
   flex: 1 1 550px;
+  align-items: center;
 }
 
 .content {
