@@ -29,7 +29,7 @@ MIT License in repository.
 
 ## URLs
 
-URL of deployed website: file://Users/moniquemerzoug/bootcamp/Challenge-2-Advanced-CSS-Professional-Portfolio/index.html
+URL of deployed website: https://mmerzoug.github.io/Challenge-2-Advanced-CSS-Professional-Portfolio/
 
 URL of Github repository: https://github.com/MMerzoug/Challenge-2-Advanced-CSS-Professional-Portfolio.git
 ---
