@@ -14,7 +14,7 @@ What I learned: Throughout the process of building this website, I reinforced my
 
 ## Usage
 
-![WebpageImage]("./assets/images/screencapture.png)
+![screencapture]("./assets/images/screencapture.png)
 
 
 ## Credits
