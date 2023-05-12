@@ -14,7 +14,7 @@ What I learned: Throughout the process of building this website, I reinforced my
 
 ## Usage
 
-![Screencapture]("./assets/images/screencapture.png")
+![screencapture] ("./assets/images/screencapture.png")
 
 
 ## Credits
@@ -29,7 +29,7 @@ MIT License in repository.
 
 ## URLs
 
-URL of deployed website: file:///Users/moniquemerzoug/bootcamp/Challenge-2-Advanced-CSS-Professional-Portfolio/index.html
+URL of deployed website: file://Users/moniquemerzoug/bootcamp/Challenge-2-Advanced-CSS-Professional-Portfolio/index.html
 
 URL of Github repository: https://github.com/MMerzoug/Challenge-2-Advanced-CSS-Professional-Portfolio.git
 ---
