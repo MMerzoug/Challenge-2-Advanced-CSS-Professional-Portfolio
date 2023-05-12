@@ -27,8 +27,10 @@ a {
 
 nav ul {
   display: flex;
-  justify-content: right;
   background-color: #fcf7f7;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 h2 {
@@ -315,7 +317,7 @@ button {
 
 @media screen and (max-width:992px) {
   .work{
-    width: 50%;
+    width: 100%;
   }
 } 
   
@@ -327,7 +329,7 @@ button {
 
 @media screen and (max-width:576px) {
   .work {
-    width: 150%;
+    width: 100%;
   }
 } 
 
